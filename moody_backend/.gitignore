@@ -2,10 +2,10 @@
 env/
 venv/
 .venv/
-
+# settings
+*settings.py
 # Secrets and environment variables
 *.env
-settings.py
 
 # Compiled Python files
 *.pyc
