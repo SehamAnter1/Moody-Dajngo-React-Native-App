@@ -1,0 +1,45 @@
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Secrets and environment variables
+*.env
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Database files
+db.sqlite3
+
+# Static and media files
+/staticfiles/
+/media/
+
+# Logs and temporary files
+*.log
+*.pot
+*.pid
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Docker and Node.js
+node_modules/
+.dockerignore
+
+# Coverage reports
+htmlcov/
+*.cover
+*.coverage
+
+# Migrations (optional, if generated on deployment)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Python Bytecode
+*.pyo
+*.pyd

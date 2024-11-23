@@ -1,0 +1,33 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.jsx",            // Include all JSX files
+    "**/*.js",             // Include all JS files
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "components/ParallaxScrollView.jsx",
+    "components/Collapsible.js",
+    "components/navigation/TabBarIcon.jsx",
+    "components/HelloWave.jsx",
+    "components/ThemedView.jsx",
+    "constants/Colors.js",
+    "components/__tests__",
+    "hooks/useColorScheme.js",
+    "hooks/useColorScheme.web",
+    "hooks/useThemeColor.js",
+    "app/+html.jsx",
+    "app/_layout.js",
+    "app/+not-found.js",
+    "app/(tabs)/_layout.jsx",
+    "app/(tabs)/explore.jsx",
+    "ExternalLink.jsx"
+  ]
+}
