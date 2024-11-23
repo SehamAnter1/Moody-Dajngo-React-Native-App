@@ -3,7 +3,7 @@ env/
 venv/
 .venv/
 # settings
-*settings.py
+settings.py
 # Secrets and environment variables
 *.env
 
