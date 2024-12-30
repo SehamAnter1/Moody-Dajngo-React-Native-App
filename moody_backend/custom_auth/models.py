@@ -3,7 +3,6 @@ from django.contrib.auth.models import AbstractUser
 import random
 from django.utils import timezone
 
-# Create your models here.
 class CustomUser(AbstractUser):
     email = models.EmailField(unique=True)
     username = models.CharField(max_length=150, unique=True)
